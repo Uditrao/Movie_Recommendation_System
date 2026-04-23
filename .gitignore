@@ -68,3 +68,6 @@ dist/
 build/
 *.egg-info/
 *.egg
+
+
+generate_pr_curve.py
