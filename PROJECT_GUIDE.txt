@@ -88,7 +88,7 @@ Key Metrics:
 -----------------------------------------------------------------
 Q: Why use TF-IDF instead of simple word counting?
 A: Because simple counting gives too much importance to words like "movie". TF-IDF focuses on meaningful keywords like "detective" or "spaceship".
-
+@mov
 Q: Why did Cosine, KNN, and Sigmoid give the same result?
 A: Because they all operate in the same TF-IDF vector space. While the math formula differs slightly, the distance between the movies remains the same.
 

@@ -1,0 +1,70 @@
+# ═══════════════════════════════════════════════════════════════════
+#  .gitignore — Movie Recommendation System Project
+# ═══════════════════════════════════════════════════════════════════
+
+# ── Python cache & bytecode ─────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+
+# ── Virtual environments ─────────────────────────────────────────────
+ppt_env/
+venv/
+env/
+.env/
+.venv/
+ENV/
+
+# ── Large dataset & pickle files (too big for Git) ──────────────────
+
+
+# ── PPT utility / one-off scripts ───────────────────────────────────
+create_ppt.py
+create_poster.py
+fill_poster.py
+inspect_ppt.py
+extract_nb_imgs.py
+read_nb.py
+inspect_out.txt
+
+# ── Generated PPT output files ───────────────────────────────────────
+# Keep the final filled poster; ignore the scratch ones
+Movie_Recommendation_Poster.pptx
+# Uncomment the next line if you also want to ignore the filled version:
+# Movie_Recommendation_Poster_FILLED.pptx
+
+# ── OS & IDE junk ────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.code-workspace
+
+# ── Jupyter Notebook checkpoints ────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── Logs & temp files ───────────────────────────────────────────────
+*.log
+*.tmp
+*.temp
+*.bak
+
+# ── Environment / secrets ────────────────────────────────────────────
+.env
+.env.*
+*.key
+secrets.py
+
+# ── Build / dist artifacts ──────────────────────────────────────────
+dist/
+build/
+*.egg-info/
+*.egg
